@@ -13,7 +13,7 @@ info()  { echo -e "${BLUE}[i]${NC} $1"; }
 error() { echo -e "${RED}[✘]${NC} $1"; }
 
 INSTALL_PATH="/usr/bin/xmp"
-SCRIPT_URL="https://raw.githubusercontent.com/XMPlusDev/XMPanel/scripts/xmp.sh"
+SCRIPT_URL="https://raw.githubusercontent.com/XMPlusDev/XMPanel/refs/heads/main/xmp.sh"
 
 # Check root
 if [[ $EUID -ne 0 ]]; then

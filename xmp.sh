@@ -291,7 +291,7 @@ update() {
 	  rm -rf /usr/bin/xmp
 	fi
 	 
-	curl -o /usr/bin/xmp -Ls https://raw.githubusercontent.com/XMPlusDev/XMPlanel/scripts/xmp.sh
+	curl -o /usr/bin/xmp -Ls https://raw.githubusercontent.com/XMPlusDev/XMPanel/refs/heads/main/xmp.sh
 	chmod +x /usr/bin/xmp
 	
 	cd /home/XMPanel
